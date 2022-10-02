@@ -1,8 +1,6 @@
 /*
- * Module 4 Large Project: The "Locked Cabin" Escape Game
+ * The "Locked Cabin" Escape Game
  * Contributers: Samuel Clear and Noah Schonhorn
- * CS 120: Advanced C++ Programming
- * Professor Dion
  * 04/19/2022
  *
  * This file contains the major implementations of the graphics functionality for the game.
@@ -678,10 +676,7 @@ void display() {
                 glClearColor(0.0, 0.0, 0.0, 1.0f);
             }
 
-            // Testing box draws
-//            if (!boxPressed) {
-                shading.draw(true);
-//            }
+            shading.draw(true);
 
             glColor3f(1, 1, 1);
             glRasterPos2i(475, 490);
