@@ -1,7 +1,3 @@
-//
-// Created by Noah Schonhorn on 4/17/22.
-//
-
 #include "Door.hpp"
 
 Door::Door(int xPos, int yPos) : GameObject(xPos, yPos)
