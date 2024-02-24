@@ -1,7 +1,3 @@
-//
-// Created by Noah Schonhorn on 4/15/22.
-//
-
 #ifndef M4OEP_LARGE_SCLEAR_NSCHONHORN_HAMMER_HPP
 #define M4OEP_LARGE_SCLEAR_NSCHONHORN_HAMMER_HPP
 
