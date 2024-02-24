@@ -4,6 +4,7 @@
 #include "Quad.h"
 #include <string>
 
+
 class Interactable : public Quad {
 private:
     std::string label;
@@ -27,7 +28,6 @@ public:
 
     /* Change the color back when the user is not clicking/hovering */
     void release();
-
 
     };
 
