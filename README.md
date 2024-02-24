@@ -34,6 +34,9 @@ use the hammer on the vase, to get the bomb to use on the safe), so make
 sure you grab everything you need before the candle lighting the 
 room burns out.
 
+## Contributions
+Noah: Developed the different item classes, along
+
 ## Known Errors
 Currently, there are no known errors. There are a number of warnings
 thrown during compilation (from the code provided to us), but beyond that,
