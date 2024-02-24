@@ -1,7 +1,3 @@
-//
-// Created by Noah Schonhorn on 4/14/22.
-//
-
 #include "Painting.hpp"
 
 Painting::Painting(int xPos, int yPos) : GameObject(xPos, yPos)
