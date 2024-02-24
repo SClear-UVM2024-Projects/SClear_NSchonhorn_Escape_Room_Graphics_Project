@@ -84,30 +84,38 @@ Interactable selectedItem({0.6f, 0.6f, 0.0f}, {600, 600}, 20, 40, "");
 
 Quad floorCabin({71.0/255.0,41.0/255.0,4.0/255.0}, {250, 440}, 500, 300);
 
+// Interactable Sprites, make with GLUT objects
+
+// Candle on Map
 Interactable candleBottom{{230.0 / 255.0, 244.0 / 255.0, 214.0 / 255.0}, {250, 230}, 6, 20, ""};
 Interactable candleWick{{0.2, 0.2, 0.2}, {250, 216}, 2, 8, ""};
 Interactable candleLightTop{{1, 1, 0}, {250, 209}, 6, 6, ""};
 Interactable candleLightFlare{{1, 0.6, 0}, {250, 205}, 2, 2, ""};
 
+// Candle in Inventory
 Interactable candleExtraBody{{230.0 / 255.0, 244.0 / 255.0, 214.0 / 255.0}, {170, 206}, 6, 20, ""};
 Interactable candleExtraWick{{0.2, 0.2, 0.2}, {170, 192}, 2, 8, ""};
 Interactable candleExtraLightTop{{1, 1, 0}, {170, 185}, 6, 6, ""};
 Interactable candleExtraLightFlare{{1, 0.6, 0}, {170, 181}, 2, 2, ""};
 
+// Lighter
 Interactable lighterBody{{50.0 / 255.0, 205.0 / 255.0, 50.0 / 255.0}, {120, 242}, 12, 16, ""};
 Interactable lighterTrigger{{0.7, 0.0, 0.0}, {122, 230}, 8, 4, ""};
 Interactable lighterTriggerStick{{0.6, 0.1, 0.1}, {122, 232}, 2, 6, ""};
 Interactable lighterFlameGuard{{202.0 / 255.0, 204.0 / 255.0, 206.0 / 255.0}, {116, 230}, 4, 8, ""};
 
+// Table on Map
 Interactable tableBody{{107.0 / 255.0, 67.0 / 255.0, 30.0 / 255.0}, {200, 224}, 100, 16, ""};
 Interactable tableLeftLeg{{107.0 / 255.0, 67.0 / 255.0, 30.0 / 255.0}, {154, 260}, 8, 60, ""};
 Interactable tableRightLeg{{107.0 / 255.0, 67.0 / 255.0, 30.0 / 255.0}, {246, 260}, 8, 60, ""};
 Interactable tableCubbord{{0.0 / 255.0, 0.0 / 255.0, 0.0 / 255.0}, {200, 225}, 20, 8, ""};
 
+// Envelope on Map
 Interactable envelopeBody{{225.0 / 255.0, 198.0 / 255.0, 153.0 / 255.0}, {300, 100}, 60, 40, ""};
 Interactable envelopeFlapLine{{249.0 / 255.0, 228.0 / 255.0, 183.0 / 255.0}, {300, 95}, 50, 30, ""};
 Interactable envelopeSeal{{194.0 / 255.0, 24.0 / 255.0, 7.0 / 255.0}, {300, 110}, 8, 6, ""};
 
+// Safe on Map, with seperate screen
 Interactable safeBody{{20.0 / 255.0, 20.0 / 255.0, 20.0 / 255.0}, {250, 290}, 100, 100, ""};
 Interactable safeKeypad{{33.0 / 255.0, 33.0 / 255.0, 33.0 / 255.0}, {270, 290}, 40, 40, ""};
 Interactable safeKeypadScreen{{0.0 / 255.0, 32.0 / 255.0, 32.0 / 255.0}, {270, 280}, 34, 10, ""};
@@ -118,17 +126,21 @@ Interactable safeKeypadButton4{{50.0 / 255.0, 16.0 / 255.0, 0.0 / 255.0}, {258, 
 Interactable safeKeypadButton5{{50.0 / 255.0, 16.0 / 255.0, 0.0 / 255.0}, {270, 302}, 6, 6, ""};
 Interactable safeKeypadButton6{{50.0 / 255.0, 16.0 / 255.0, 0.0 / 255.0}, {282, 302}, 6, 6, ""};
 
+// Tumbler on Map
 Interactable tumblerBody{{74.0 / 255.0, 71.0 / 255.0, 72.0 / 255.0}, {300, 100}, 4, 36, ""};
 Interactable tumblerEdgeMiddle{{74.0 / 255.0, 71.0 / 255.0, 72.0 / 255.0}, {297, 88}, 2, 4, ""};
 Interactable tumblerEdgeBottom{{74.0 / 255.0, 71.0 / 255.0, 72.0 / 255.0}, {296, 96}, 4, 6, ""};
 
+// Lockpick
 Interactable lockpickBody{{104.0 / 255.0, 101.0 / 255.0, 102.0 / 255.0}, {200, 300}, 4, 28, ""};
 Interactable lockpickHead{{104.0 / 255.0, 101.0 / 255.0, 102.0 / 255.0}, {196, 287}, 10, 2, ""};
 Interactable lockpickTooth{{104.0 / 255.0, 101.0 / 255.0, 102.0 / 255.0}, {192, 289}, 2, 4, ""};
 
+// Leather Strap and Chain
 Interactable leatherStrap{{78.0 / 255.0, 16.0 / 255.0, 10.0 / 255.0}, {10, 250}, 24, 10, ""};
 Interactable chainLock{{204.0 / 255.0, 201.0 / 255.0, 202.0 / 255.0}, {90, 150}, 24, 4, ""};
 
+// First Padlock
 Interactable padLock1Body{{64.0 / 255.0, 61.0 / 255.0, 62.0 / 255.0}, {11, 150}, 14, 14, ""};
 Interactable padLock1TopHole{{14.0 / 255.0, 11.0 / 255.0, 12.0 / 255.0}, {11, 148}, 4, 4, ""};
 Interactable padLock1BottomHole{{14.0 / 255.0, 11.0 / 255.0, 12.0 / 255.0}, {11, 152}, 2, 6, ""};
@@ -136,6 +148,7 @@ Interactable padLock1LeftNeck{{104.0 / 255.0, 101.0 / 255.0, 102.0 / 255.0}, {7,
 Interactable padLock1RightNeck{{104.0 / 255.0, 101.0 / 255.0, 102.0 / 255.0}, {15, 141}, 4, 8, ""};
 Interactable padLock1TopNeck{{104.0 / 255.0, 101.0 / 255.0, 102.0 / 255.0}, {11, 139}, 8, 4, ""};
 
+// Second Padlock
 Interactable padLock2Body{{64.0 / 255.0, 61.0 / 255.0, 62.0 / 255.0}, {90, 250}, 14, 14, ""};
 Interactable padLock2TopHole{{14.0 / 255.0, 11.0 / 255.0, 12.0 / 255.0}, {90, 248}, 4, 4, ""};
 Interactable padLock2BottomHole{{14.0 / 255.0, 11.0 / 255.0, 12.0 / 255.0}, {90, 252}, 2, 6, ""};
@@ -143,22 +156,26 @@ Interactable padLock2LeftNeck{{104.0 / 255.0, 101.0 / 255.0, 102.0 / 255.0}, {86
 Interactable padLock2RightNeck{{104.0 / 255.0, 101.0 / 255.0, 102.0 / 255.0}, {94, 241}, 4, 8, ""};
 Interactable padLock2TopNeck{{104.0 / 255.0, 101.0 / 255.0, 102.0 / 255.0}, {90, 239}, 8, 4, ""};
 
+// Key
 Interactable keyHead{{205.0 / 255.0, 127.0 / 255.0, 50.0 / 255.0}, {250, 290}, 10, 10, ""};
 Interactable keyBody{{205.0 / 255.0, 127.0 / 255.0, 50.0 / 255.0}, {250, 282}, 4, 16, ""};
 Interactable keyToothTop{{205.0 / 255.0, 127.0 / 255.0, 50.0 / 255.0}, {248, 276}, 8, 4, ""};
 Interactable keyToothMiddle{{205.0 / 255.0, 127.0 / 255.0, 50.0 / 255.0}, {248, 279}, 6, 2, ""};
 Interactable keyToothBottom{{205.0 / 255.0, 127.0 / 255.0, 50.0 / 255.0}, {250, 290}, 10, 6, ""};
 
+// Bomb
 Interactable bombBody{{24.0 / 255.0, 21.0 / 255.0, 22.0 / 255.0}, {400, 400}, 16, 16, ""};
 Interactable bombNeck{{24.0 / 255.0, 21.0 / 255.0, 22.0 / 255.0}, {400, 392}, 12, 6, ""};
 Interactable bombFuse{{248.0 / 255.0, 223.0 / 255.0, 161.0 / 255.0}, {400, 386}, 4, 10, ""};
 
+// Knife
 Interactable knifeHandle{{102.0 / 255.0, 51.0 / 255.0, 0.0 / 255.0}, {350, 62}, 4, 10, ""};
 Interactable knifeBladeBack{{114.0 / 255.0, 111.0 / 255.0, 112.0 / 255.0}, {349, 46}, 6, 22, ""};
 Interactable knifeBladeEdge{{202.0 / 255.0, 204.0 / 255.0, 206.0 / 255.0}, {345, 49}, 2, 16, ""};
 Interactable knifeBladeTopEdge{{202.0 / 255.0, 204.0 / 255.0, 206.0 / 255.0}, {350, 34}, 4, 2, ""};
 Interactable knifeUpperFarEdge{{202.0 / 255.0, 204.0 / 255.0, 206.0 / 255.0}, {345, 53}, 4, 8, ""};
 
+// Iron Rod
 Interactable ironRodBody{{114.0 / 255.0, 111.0 / 255.0, 112.0 / 255.0}, {246, 260}, 8, 44, ""};
 Interactable ironRodTop{{0.0 / 255.0, 0.0 / 255.0, 0.0 / 255.0}, {246, 272}, 4, 4, ""};
 
@@ -429,6 +446,8 @@ void display() {
 
             }
 
+            // This pattern repeats of showing all items in the front, then showing items behind 
+            // them if the user iteracts with the items correctly.
             else if (currentWall == rightWall) {
                 glClearColor(rightColor.red, rightColor.green, rightColor.blue, 1.0f);
                 bombBody.draw();
@@ -445,7 +464,7 @@ void display() {
 
             else if (currentWall == backWall) {
                 glClearColor(backColor.red, backColor.green, backColor.blue, 1.0f);
-                // Candle Draws
+                    
                 candleBottom.draw();
                 candleWick.draw();
                 candleLightTop.draw();
@@ -486,8 +505,6 @@ void display() {
 
             else if (currentWall == leftWall) {
                 glClearColor(leftColor.red, leftColor.green, leftColor.blue, 1.0f);
-                // Iron Rod Draws
-
                 tableBody.draw();
                 tableLeftLeg.draw();
                 tableCubbord.draw();
@@ -1066,7 +1083,7 @@ void timerGlobal(int dummy) {
 // Timer which changes the color of the objects according to the light of the candle
 /*
  *  Applies a small amount of variance to the
- *  alpha level to
+ *  alpha level to emulate the light of the candle flickering.
  */
 void timerFlicker(int dummy) {
     if (stopTimer < TIME_LIMIT) {
