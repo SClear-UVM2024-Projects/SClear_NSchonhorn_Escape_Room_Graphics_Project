@@ -1,7 +1,3 @@
-//
-// Created by Noah Schonhorn on 4/15/22.
-//
-
 #include "Hammer.hpp"
 
 Hammer::Hammer(int xPos, int yPos) : GameObject(xPos, yPos)
